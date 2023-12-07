@@ -1,3 +1,4 @@
+ /* reset option */
  * {
     padding: 0;
     margin: 0;
@@ -11,9 +12,9 @@
     clear: both;
 }
 
-main.conteiner{
+/* container */
+main.container{
     font-family: 'Nunito', sans-serif;
-    border: red 3px solid;
     text-align: center;
     width: 80%;
     margin-left: auto;
@@ -21,6 +22,7 @@ main.conteiner{
 
 }
 
+/* titolo */
 h1{
     font-weight: 1000;
     color: #c43672;
@@ -28,16 +30,89 @@ h1{
     padding: 40px
 }
 
+/* testo */
 #lorem{
     font-size: 20px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
+/* griglia */
 .rettangle{
     float: left;
-    height: 100px;
+    min-height: 100px;
     width: calc(100% / 3);    
-    border: 2px solid red;
-    padding: 0 15px;
+    padding: 20px 15px;
+    
 
+
+}
+
+.left{
+    padding-left: 0;
+}
+
+.right{
+    padding-right: 0;
+}
+
+/* card dei lavoratori */
+.card{
+    background-color: #0F0E17;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+/* immagini */
+.immagini{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.marco{
+    background-image: url(../assets/img/male1.png);
+}
+
+.laura{
+    background-image: url(../assets/img/female1.png);
+}
+
+.giorgio{
+    background-image: url(../assets/img/male2.png);
+}
+
+.marta{
+    background-image: url(../assets/img/female2.png);
+}
+
+.roberto{
+    background-image: url(../assets/img/male3.png);
+}
+
+.daniela{
+    background-image: url(../assets/img/female3.png);
+}
+
+/* testo con i dati */
+.dati{
+    margin: 15px 10px;
+    text-align: left;
+}
+
+h2{
+    color: white;
+    font-size: 15px;
+}
+
+.job{
+    color: white;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.mail{
+    color: #32C5EC;
 }
